@@ -1,0 +1,84 @@
+/* Reset default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #c0392b;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #555;
+  }
+  
+  footer {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content {
+      margin: 10px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
